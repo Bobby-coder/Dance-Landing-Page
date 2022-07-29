@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    height: 100vh;
+    background-image: url("/images/girl.jpg");
+    background-size: 35% 100%;
+    background-repeat: no-repeat;
+    background-color: #f5f2f0;
+    position: relative;
+}
+
+.nav{
+    padding: 0 120px;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav-logo{
+    height: 40px;
+}
+
+.list > ul{
+    display: flex;
+    gap: 70px;
+}
+
+.line{
+    position: absolute;
+    width: 19%;
+    left: 630px;
+    top: 10.1vh;
+    border-radius: 40px;
+    height: 1.7px;
+    background-color: #333333;
+    list-style-type: none;
+}
+
+ul > li:first-child{
+    color: #0d0d0d
+}
+
+.list-item{
+    list-style-type: none;
+    color: #8d8d8d;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.icon-container{
+    position: absolute;
+    right: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon-container > img{
+    transform: scale(0.6);
+}
+
+.icon-container > img:nth-child(3){
+    transform: scale(0.5);
+}
+
+.arrow{
+    position: absolute;
+    bottom: -20px;
+    right: 100px;
+    transform: scale(0.5);
+}
+
+.skills-list{
+    position: absolute;
+    bottom: 10px;
+    left: 43%;
+}
+
+.skills-list .item{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #8d8d8d;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.title{
+    font-size: 120px;
+    font-weight: 700;
+    position: absolute;
+    left: 40%;
+    top: 12%;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.title-2{
+    font-size: 120px;
+    font-weight: 700;
+    position: absolute;
+    top: 29%;
+    left: 46%;
+}
+
+.content{
+    color: #8d8d8d;
+    font-size: 25px;
+    position: absolute;
+    right: 295px;
+    top: 36%;
+    line-height: 30px;
+}
+
+.btn{
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #0d0d0d;
+    font-size: 20px;
+    padding: 10px 60px;
+    position: absolute;
+    right: 110px;
+    top: 50%;
+}
+
+.info-container{
+    position: absolute;
+    bottom: -140px;
+    right: 17%;
+    overflow: hidden;
+}
+
+.info-container > i{
+    transform: scale(2.5);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.info-container >p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.info-container > img{
+    width: 400px;
+}
+
+.circle-1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #0d0d0d;
+    position: absolute;
+    left: 41%;
+    bottom: 31.2%;
+}
+
+.circle-2{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #0d0d0d;
+    position: absolute;
+    left: 41%;
+    bottom: 24.6%;
+    background-color: #8d8d8d;
+}
+
+.circle-3{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #0d0d0d;
+    position: absolute;
+    left: 41%;
+    bottom: 18.2%;
+    background-color: #8d8d8d;
+}
+
+.circle-4{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #0d0d0d;
+    position: absolute;
+    left: 41%;
+    bottom: 11.5%;
+    background-color: #8d8d8d;
+}
+
+.circle-5{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #0d0d0d;
+    position: absolute;
+    left: 41%;
+    bottom: 5%;
+    background-color: #8d8d8d;
+}
+
+.line-1{
+    border: 1px solid #8d8d8d;
+    width: 35px;
+    background-color: #8d8d8d;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 17.5px;
+    left: 40.35%;
+}
+
+.line-2{
+    border: 1px solid #8d8d8d;
+    width: 35px;
+    background-color: #8d8d8d;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 65px;
+    left: 40.35%;
+}
+
+.line-3{
+    border: 1px solid #8d8d8d;
+    width: 35px;
+    background-color: #8d8d8d;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 111px;
+    left: 40.35%;
+}
+
+.line-4{
+    border: 1px solid #8d8d8d;
+    width: 35px;
+    background-color: #8d8d8d;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 157px;
+    left: 40.35%;
+}
+
+.line-5{
+    border: 1px solid #8d8d8d;
+    width: 35px;
+    background-color: #8d8d8d;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 204px;
+    left: 40.35%;
+}
