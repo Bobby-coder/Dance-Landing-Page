@@ -2,7 +2,7 @@
 
 ## [Live Site](https://dance-landing-webpage.netlify.app)
 
-![Live-site-screenshot](images/Project-15.png)
+![Live-site-screenshot](images/project-14.png)
 
 ## Introduction
 
